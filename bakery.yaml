@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Arapey-Italic.ttf.ttx, Arapey-Regular.ttf.ttx, src/Arapey-Italic.otf.ttx,
+  src/Arapey-Regular.otf.ttx, src/Arapey-Italic-TTF.sfd, src/Arapey-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
